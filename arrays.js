@@ -34,8 +34,9 @@ function removeElementFromBeginningOfArray(array){
 }
 
 function destructivelyAddElementToEndOfArray(array){
+  var length = array.length
   array.pop()
-  addElementToEndOfArray()
+  array[length] = length
   return array
 }
 
