@@ -32,3 +32,13 @@ function removeElementFromBeginningOfArray(array){
   var firstElementRemoved = array.slice(1)
   return firstElementRemoved
 }
+
+function destructivelyAddElementToEndOfArray(array){
+  array.pop()
+  return array
+}
+
+function removeElementFromEndOfArray(array){
+  var lastElementRemoved = array.slice(-1)
+  return lastElementRemoved
+}
