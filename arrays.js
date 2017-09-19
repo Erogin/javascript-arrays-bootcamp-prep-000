@@ -33,10 +33,8 @@ function removeElementFromBeginningOfArray(array){
   return firstElementRemoved
 }
 
-function destructivelyAddElementToEndOfArray(array){
-  var length = array.length
+function destructivelyRemoveElementFromEndOfArray(array){
   array.pop()
-  array[length] = length
   return array
 }
 
